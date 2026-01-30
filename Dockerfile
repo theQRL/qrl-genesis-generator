@@ -2,7 +2,7 @@
 ARG QRYSM_GIT_REPO=https://github.com/cyyber/qrysm.git
 ARG QRYSM_GIT_BRANCH=dev
 
-FROM golang:1.22 AS builder
+FROM golang:1.25 AS builder
 
 ARG QRYSM_GIT_REPO
 ARG QRYSM_GIT_BRANCH
