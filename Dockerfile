@@ -1,5 +1,4 @@
-# ARG QRYSM_GIT_REPO=https://github.com/theQRL/qrysm.git
-ARG QRYSM_GIT_REPO=https://github.com/cyyber/qrysm.git
+ARG QRYSM_GIT_REPO=https://github.com/theQRL/qrysm.git
 ARG QRYSM_GIT_BRANCH=main
 
 FROM golang:1.25 AS builder
