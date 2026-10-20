@@ -1,4 +1,4 @@
-ARG QRYSM_GIT_REPO=https://github.com/cyyber/qrysm.git
+ARG QRYSM_GIT_REPO=https://github.com/theQRL/qrysm.git
 ARG QRYSM_GIT_REF=main
 
 FROM golang:1.26.5-bookworm AS builder
